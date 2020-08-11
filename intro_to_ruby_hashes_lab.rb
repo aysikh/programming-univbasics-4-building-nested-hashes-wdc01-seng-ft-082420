@@ -3,7 +3,7 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  railroads => {
+  railroads = {
     :pieces => 4, 
     :rent_in_dollars => {},
     :names => {},
@@ -12,8 +12,8 @@ def monopoly_with_second_tier
 
 end
 
-def monopoly_with_third_tier = {
-  railroads => {
+def monopoly_with_third_tier
+  railroads = {
     :pieces => 4, 
     :rent_in_dollars => {
       :one_piece_owned => 25,
@@ -27,12 +27,11 @@ def monopoly_with_third_tier = {
       :shortline_railroad => {}
     }
   }
-}
 
 end
 
-def monopoly_with_fourth_tier = {
-  :railroads => {
+def monopoly_with_fourth_tier
+  railroads = {
     :pieces => 4,
     :rent_in_dollars => 
     {
@@ -55,5 +54,4 @@ def monopoly_with_fourth_tier = {
         :mortgage_value => "$800"}
       }
   }
-}
 end
