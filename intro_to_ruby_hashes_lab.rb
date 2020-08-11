@@ -78,3 +78,5 @@ def monopoly
       }
   }
 end
+
+monopoly
